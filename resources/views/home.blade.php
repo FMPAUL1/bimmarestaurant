@@ -708,7 +708,7 @@
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                                        </span> info@bimmadiagnostics.com
+                                        </span> info@bimmadiagnostics.ng
                                     </li>
                                 </ul>
                             </div>
