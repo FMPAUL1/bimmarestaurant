@@ -35,7 +35,7 @@
     <div id="wrapper">
 
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="top-area">
+            <div style="background-color: #3602f2" class="top-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-6">
@@ -55,7 +55,8 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index-2.html">
-                        <img src="{{ asset('assets/img/bima.png') }}" alt="" width="150" height="40" />
+                        {{-- <img src="{{ asset('assets/img/bima.png') }}" alt="" width="150" height="40" /> --}}
+                        <img src="{{ asset('assets/img/logo.jpg') }}" alt="" width="60" height="60" />
                     </a>
                 </div>
 
@@ -113,7 +114,8 @@
                                         </li>
                                     </ul>
                                     <p class="text-right wow bounceIn" data-wow-delay="0.4s">
-                                        <a href="#service" class="btn btn-skin btn-lg">Explore Services <i
+                                        <a href="#service" style="background-color: #3602f2"
+                                            class="btn btn-skin btn-lg">Explore Services <i
                                                 class="fa fa-angle-right"></i></a>
                                     </p>
                                 </div>
@@ -139,7 +141,8 @@
                     <div class="col-sm-3 col-md-3">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="box text-center">
-                                <i class="fa fa-calendar-check-o fa-3x circled bg-skin"></i>
+                                <i style="background-color: #3602f2"
+                                    class="fa fa-calendar-check-o fa-3x circled bg-skin"></i>
                                 <h4 class="h-bold">Book an Appointment</h4>
                                 <p>
                                     Schedule your diagnostic tests easily online or by phone.
@@ -150,7 +153,7 @@
                     <div class="col-sm-3 col-md-3">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="box text-center">
-                                <i class="fa fa-flask fa-3x circled bg-skin"></i>
+                                <i style="background-color: #3602f2" class="fa fa-flask fa-3x circled bg-skin"></i>
                                 <h4 class="h-bold">Lab Services</h4>
                                 <p>
                                     Full range of blood, urine, and genetic testing for all ages.
@@ -161,7 +164,8 @@
                     <div class="col-sm-3 col-md-3">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="box text-center">
-                                <i class="fa fa-heartbeat fa-3x circled bg-skin"></i>
+                                <i style="background-color: #3602f2"
+                                    class="fa fa-heartbeat fa-3x circled bg-skin"></i>
                                 <h4 class="h-bold">Health Screening</h4>
                                 <p>
                                     Preventive health packages tailored to your needs.
@@ -172,7 +176,8 @@
                     <div class="col-sm-3 col-md-3">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="box text-center">
-                                <i class="fa fa-file-medical fa-3x circled bg-skin"></i>
+                                <i style="background-color: #3602f2"
+                                    class="fa fa-file-medical fa-3x circled bg-skin"></i>
                                 <h4 class="h-bold">Diagnostic Reports</h4>
                                 <p>
                                     Secure, confidential, and easy-to-understand results delivered fast.
@@ -202,7 +207,8 @@
                                 <div class="col-md-4">
                                     <div class="wow lightSpeedIn" data-wow-delay="0.1s">
                                         <div class="cta-btn">
-                                            <a href="#contact" class="btn btn-skin btn-lg">Contact Us Now</a>
+                                            <a href="#contact" style="background-color: #3602f2"
+                                                class="btn btn-skin btn-lg">Contact Us Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -273,7 +279,7 @@
                         <div class="wow fadeInRight" data-wow-delay="0.2s">
                             <div class="service-box">
                                 <div class="service-icon">
-                                    <span class="fa fa-user-md fa-3x"></span>
+                                    <span style="color: #3602f2" class="fa fa-user-md fa-3x"></span>
                                 </div>
                                 <div class="service-desc">
                                     <h5 class="h-light">Consultation</h5>
@@ -319,15 +325,33 @@
                         <div id="filters-container" class="cbp-l-filters-alignLeft">
                             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (<div
                                     class="cbp-filter-counter"></div>)</div>
+                            <div data-filter=".md" class="cbp-filter-item">MD (<div class="cbp-filter-counter"></div>
+                                )</div>
                             <div data-filter=".pathologist" class="cbp-filter-item">Pathologists (<div
                                     class="cbp-filter-counter"></div>)</div>
                             <div data-filter=".radiologist" class="cbp-filter-item">Radiologists (<div
                                     class="cbp-filter-counter"></div>)</div>
-                            <div data-filter=".geneticist" class="cbp-filter-item">Geneticists (<div
-                                    class="cbp-filter-counter"></div>)</div>
                         </div>
                         <div id="grid-container" class="cbp-l-grid-team">
                             <ul>
+                                <li class="cbp-item md">
+                                    <a href="#" class="cbp-caption cbp-singlePage">
+                                        <div class="cbp-caption-defaultWrap">
+                                            <img src="{{ asset('assets/img/Dr Akuli Azubuike MD.jpg') }}"
+                                                alt="Dr Akuli Azubuike MD.jpg" width="100%">
+                                        </div>
+                                        <div class="cbp-caption-activeWrap">
+                                            <div class="cbp-l-caption-alignCenter">
+                                                <div class="cbp-l-caption-body">
+                                                    <div class="cbp-l-caption-text">VIEW PROFILE</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr Akuli
+                                        Azubuike.jpg</a>
+                                    <div class="cbp-l-grid-team-position">MD</div>
+                                </li>
                                 <li class="cbp-item pathologist">
                                     <a href="#" class="cbp-caption cbp-singlePage">
                                         <div class="cbp-caption-defaultWrap">
@@ -362,28 +386,12 @@
                                     <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Michael Lee</a>
                                     <div class="cbp-l-grid-team-position">Senior Radiologist</div>
                                 </li>
-                                <li class="cbp-item geneticist">
-                                    <a href="#" class="cbp-caption cbp-singlePage">
-                                        <div class="cbp-caption-defaultWrap">
-                                            <img src="{{ asset('assets/img/team/4.jpg') }}" alt="Dr. Priya Patel"
-                                                width="100%">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body">
-                                                    <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Priya Patel</a>
-                                    <div class="cbp-l-grid-team-position">Geneticist</div>
-                                </li>
+
                                 <li class="cbp-item pathologist">
                                     <a href="#" class="cbp-caption cbp-singlePage">
                                         <div class="cbp-caption-defaultWrap">
-                                            <img src="{{ asset('assets/img/team/3.jpg') }}" alt="Dr. Samuel Okafor"
-                                                width="100%">
+                                            <img src="{{ asset('assets/img/Dr. Daniel Sochukwu.jpg') }}"
+                                                alt="Dr. Daniel Sochukwu" width="100%">
                                         </div>
                                         <div class="cbp-caption-activeWrap">
                                             <div class="cbp-l-caption-alignCenter">
@@ -393,8 +401,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Samuel
-                                        Okafor</a>
+                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Daniel Sochukwu
+                                    </a>
                                     <div class="cbp-l-grid-team-position">Laboratory Scientist</div>
                                 </li>
                             </ul>
@@ -569,7 +577,8 @@
                                     <li><del>Genetic Screening</del> <i class="fa fa-times icon-danger"></i></li>
                                 </ul>
                                 <div class="price-bottom">
-                                    <a href="#contact" class="btn btn-skin btn-lg">Book Now</a>
+                                    <a href="#contact" style="background-color: #3602f2"
+                                        class="btn btn-skin btn-lg">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -585,8 +594,9 @@
                                     <li>Consultation <i class="fa fa-check icon-success"></i></li>
                                     <li>Genetic Screening <i class="fa fa-check icon-success"></i></li>
                                 </ul>
-                                <div class="price-bottom">
-                                    <a href="#contact" class="btn btn-skin btn-lg">Book Now</a>
+                                <div style="background-color: #3602f2" class="price-bottom">
+                                    <a href="#contact" style="background-color: #3602f2"
+                                        class="btn btn-skin btn-lg">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -603,7 +613,8 @@
                                     <li>Annual Follow-up <i class="fa fa-check icon-success"></i></li>
                                 </ul>
                                 <div class="price-bottom">
-                                    <a href="#contact" class="btn btn-skin btn-lg">Book Now</a>
+                                    <a href="#contact" style="background-color: #3602f2"
+                                        class="btn btn-skin btn-lg">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -671,7 +682,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="wow fadeInDown" data-wow-delay="0.1s">
+                        {{-- <div class="wow fadeInDown" data-wow-delay="0.1s">
                             <div class="widget">
                                 <h5>Quick Links</h5>
                                 <ul>
@@ -682,7 +693,7 @@
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="wow fadeInDown" data-wow-delay="0.1s">
@@ -718,7 +729,7 @@
                         <div class="wow fadeInDown" data-wow-delay="0.1s">
                             <div class="widget">
                                 <h5>Our Location</h5>
-                                <p>Plot 12, Medical Avenue, Victoria Island, Lagos, Nigeria</p>
+                                <p>1431 Eddy Nwokoye close Gwarinpa Abuja</p>
                             </div>
                         </div>
                         <div class="wow fadeInDown" data-wow-delay="0.1s">
