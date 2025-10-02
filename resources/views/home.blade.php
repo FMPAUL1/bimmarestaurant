@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BIMMA DIAGNOSTICS</title>
+    <title>BIMMA DIAGNOSTICS HOSPITAL</title>
 
     <!-- css -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-6">
-                            <p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
+                            <p class="bold text-left">Monday - Saturday, 8am to 11pm </p>
                         </div>
                         <div class="col-sm-6 col-md-6">
                             <p class="bold text-right">Contact Us at : info@bimmadiagnostics.ng </p>
@@ -85,9 +85,10 @@
                             <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
                                 <h2 class="h-ultra">Welcome to BIMMA Diagnostics</h2>
                             </div>
-                            <div style="margin-bottom: 4px" class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
+                            <div style="margin-bottom: 4px" class="wow fadeInUp" data-wow-offset="0"
+                                data-wow-delay="0.1s">
                                 <h4 class="h-light">Expert Healthcare Delivery</h4>
-                                <span >At Bimma diagnostic hospital, we believe that exceptional healthcare starts with
+                                <span>At Bimma diagnostic hospital, we believe that exceptional healthcare starts with
                                     personalized attention. Our dedicated team of medical professionals is committed to
                                     delivering individualized care that meets your unique needs. From routine check-
                                     ups to complex treatments, we are here to support you every step of the way with
@@ -128,7 +129,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-                                <img src="{{ asset('assets/img/bima-front.png') }}" class="img-responsive"
+                                <img src="{{ asset('assets/img/logo.jpg') }}" width="1000" class="img-responsive"
                                     alt="Medical Diagnostics" />
                             </div>
                         </div>
@@ -325,9 +326,9 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div id="filters-container" class="cbp-l-filters-alignLeft">
+                        <div id="filters-container" class="cbp-l-filters-alignCenter text-center">
                             <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (<div
                                     class="cbp-filter-counter"></div>)</div>
                             <div data-filter=".md" class="cbp-filter-item">MD (<div class="cbp-filter-counter"></div>
@@ -337,13 +338,13 @@
                             <div data-filter=".radiologist" class="cbp-filter-item">Radiologists (<div
                                     class="cbp-filter-counter"></div>)</div>
                         </div>
-                        <div id="grid-container" class="cbp-l-grid-team">
-                            <ul>
-                                <li class="cbp-item md">
+                        <div id="grid-container" class="cbp-l-grid-team text-center" style="display: flex; justify-content: center; align-items: center;">
+                            <ul style="display: flex; gap: 40px; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 0;">
+                                <li class="cbp-item md" style="text-align: center;">
                                     <a href="#" class="cbp-caption cbp-singlePage">
                                         <div class="cbp-caption-defaultWrap">
                                             <img src="{{ asset('assets/img/Dr Akuli Azubuike MD.jpg') }}"
-                                                alt="Dr Akuli Azubuike MD.jpg" width="100%">
+                                                alt="Dr Akuli Azubuike MD.jpg" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; margin: 0 auto;">
                                         </div>
                                         <div class="cbp-caption-activeWrap">
                                             <div class="cbp-l-caption-alignCenter">
@@ -353,50 +354,14 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr Akuli
-                                        Azubuike.jpg</a>
+                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name" style="display: block; margin-top: 10px;">Dr Akuli Azubuike</a>
                                     <div class="cbp-l-grid-team-position">MD</div>
                                 </li>
-                                <li class="cbp-item pathologist">
-                                    <a href="#" class="cbp-caption cbp-singlePage">
-                                        <div class="cbp-caption-defaultWrap">
-                                            <img src="{{ asset('assets/img/team/2.jpg') }}" alt="Dr. Jane Smith"
-                                                width="100%">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body">
-                                                    <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Jane Smith</a>
-                                    <div class="cbp-l-grid-team-position">Chief Pathologist</div>
-                                </li>
-                                <li class="cbp-item radiologist">
-                                    <a href="#" class="cbp-caption cbp-singlePage">
-                                        <div class="cbp-caption-defaultWrap">
-                                            <img src="{{ asset('assets/img/team/1.jpg') }}" alt="Dr. Michael Lee"
-                                                width="100%">
-                                        </div>
-                                        <div class="cbp-caption-activeWrap">
-                                            <div class="cbp-l-caption-alignCenter">
-                                                <div class="cbp-l-caption-body">
-                                                    <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Michael Lee</a>
-                                    <div class="cbp-l-grid-team-position">Senior Radiologist</div>
-                                </li>
-
-                                <li class="cbp-item pathologist">
+                                <li class="cbp-item " style="text-align: center;">
                                     <a href="#" class="cbp-caption cbp-singlePage">
                                         <div class="cbp-caption-defaultWrap">
                                             <img src="{{ asset('assets/img/Dr. Daniel Sochukwu.jpg') }}"
-                                                alt="Dr. Daniel Sochukwu" width="100%">
+                                                alt="Dr. Daniel Sochukwu" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; margin: 0 auto;">
                                         </div>
                                         <div class="cbp-caption-activeWrap">
                                             <div class="cbp-l-caption-alignCenter">
@@ -406,8 +371,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Daniel Sochukwu
-                                    </a>
+                                    <a href="#" class="cbp-singlePage cbp-l-grid-team-name" style="display: block; margin-top: 10px;">Dr. Daniel Sochukwu</a>
                                     <div class="cbp-l-grid-team-position">Pathologist</div>
                                 </li>
                             </ul>
@@ -416,144 +380,9 @@
                 </div>
             </div>
         </section>
-        <!-- /Section: team -->
 
-        <!-- Section: facilities -->
-        <section id="facilities" class="home-section paddingbot-60">
-            <div class="container marginbot-50">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow fadeInDown" data-wow-delay="0.1s">
-                            <div class="section-heading text-center">
-                                <h2 class="h-bold">Our Facilities</h2>
-                                <p>Modern, fully equipped diagnostic centers for your comfort and safety.</p>
-                            </div>
-                        </div>
-                        <div class="divider-short"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="wow bounceInUp" data-wow-delay="0.2s">
-                            <div id="owl-works" class="owl-carousel">
-                                <div class="item"><img src="{{ asset('assets/img/bima-lab.png') }}"
-                                        class="img-responsive" alt="Laboratory"></div>
-                                <div class="item"><img src="{{ asset('assets/img/bima-radiology.png') }}"
-                                        class="img-responsive" alt="Radiology"></div>
-                                <div class="item"><img src="{{ asset('assets/img/bima-waiting.png') }}"
-                                        class="img-responsive" alt="Waiting Area"></div>
-                                <div class="item"><img src="{{ asset('assets/img/bima-consultation.png') }}"
-                                        class="img-responsive" alt="Consultation Room"></div>
-                                <div class="item"><img src="{{ asset('assets/img/bima-lab.png') }}"
-                                        class="img-responsive" alt="Genetics Lab"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section: facilities -->
 
-        <!-- Section: testimonial -->
-        <section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
-            <div class="carousel-reviews broun-block">
-                <div class="container">
-                    <div class="row">
-                        <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="block-text rel zmin">
-                                            <a title="" href="#">Comprehensive Blood Test</a>
-                                            <div class="mark">My rating: <span class="rating-input">
-                                                    <span data-value="0" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="1" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="2" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="3" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="4"
-                                                        class="glyphicon glyphicon-star-empty"></span>
-                                                    <span data-value="5"
-                                                        class="glyphicon glyphicon-star-empty"></span>
-                                                </span></div>
-                                            <p>BIMMA Diagnostics provided fast and accurate results. The staff was very
-                                                professional and caring.</p>
-                                            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                                        </div>
-                                        <div class="person-text rel text-light">
-                                            <img src="{{ asset('assets/img/testimonials/2.jpg') }}" alt=""
-                                                class="person img-circle" />
-                                            <a title="" href="#">John Doe</a>
-                                            <span>Lagos, Nigeria</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 hidden-xs">
-                                        <div class="block-text rel zmin">
-                                            <a title="" href="#">Radiology Services</a>
-                                            <div class="mark">My rating: <span class="rating-input">
-                                                    <span data-value="0" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="1" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="2" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="3"
-                                                        class="glyphicon glyphicon-star-empty"></span>
-                                                    <span data-value="4"
-                                                        class="glyphicon glyphicon-star-empty"></span>
-                                                    <span data-value="5"
-                                                        class="glyphicon glyphicon-star-empty"></span>
-                                                </span></div>
-                                            <p>The imaging center was clean and modern. My scan was quick and the doctor
-                                                explained everything clearly.</p>
-                                            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                                        </div>
-                                        <div class="person-text rel text-light">
-                                            <img src="{{ asset('assets/img/testimonials/1.jpg') }}" alt=""
-                                                class="person img-circle" />
-                                            <a title="" href="#">Mary Johnson</a>
-                                            <span>Abuja, Nigeria</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-                                        <div class="block-text rel zmin">
-                                            <a title="" href="#">Genetic Screening</a>
-                                            <div class="mark">My rating: <span class="rating-input">
-                                                    <span data-value="0" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="1" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="2" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="3" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="4" class="glyphicon glyphicon-star"></span>
-                                                    <span data-value="5" class="glyphicon glyphicon-star"></span>
-                                                </span></div>
-                                            <p>Thanks to BIMMA Diagnostics, I received important genetic information
-                                                that helped my family plan for the future.</p>
-                                            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                                        </div>
-                                        <div class="person-text rel text-light">
-                                            <img src="{{ asset('assets/img/testimonials/4.jpg') }}" alt=""
-                                                class="person img-circle" />
-                                            <a title="" href="#">Chinedu Eze</a>
-                                            <span>Port Harcourt, Nigeria</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Add more testimonials as needed -->
-                            </div>
-                            <a class="left carousel-control" href="#carousel-reviews" role="button"
-                                data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-reviews" role="button"
-                                data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section: testimonial -->
 
-        <!-- Section: pricing -->
         <section id="pricing" class="home-section bg-gray paddingbot-60">
             <div class="container marginbot-50">
                 <div class="row">
@@ -712,7 +541,7 @@
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
-                                        </span> Monday - Saturday, 8am to 8pm
+                                        </span> Monday - Saturday, 8am to 11pm
                                     </li>
                                     <li>
                                         <span class="fa-stack fa-lg">
