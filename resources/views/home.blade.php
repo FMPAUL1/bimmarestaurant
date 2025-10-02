@@ -85,8 +85,13 @@
                             <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
                                 <h2 class="h-ultra">Welcome to BIMMA Diagnostics</h2>
                             </div>
-                            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
-                                <h4 class="h-light">Your Trusted Partner in Medical Diagnostics</h4>
+                            <div style="margin-bottom: 4px" class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
+                                <h4 class="h-light">Expert Healthcare Delivery</h4>
+                                <span >At Bimma diagnostic hospital, we believe that exceptional healthcare starts with
+                                    personalized attention. Our dedicated team of medical professionals is committed to
+                                    delivering individualized care that meets your unique needs. From routine check-
+                                    ups to complex treatments, we are here to support you every step of the way with
+                                    compassion and expertise</span>
                             </div>
                             <div class="well well-trans">
                                 <div class="wow fadeInRight" data-wow-delay="0.1s">
@@ -403,7 +408,7 @@
                                     </a>
                                     <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Dr. Daniel Sochukwu
                                     </a>
-                                    <div class="cbp-l-grid-team-position">Laboratory Scientist</div>
+                                    <div class="cbp-l-grid-team-position">Pathologist</div>
                                 </li>
                             </ul>
                         </div>
